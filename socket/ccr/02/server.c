@@ -53,8 +53,8 @@
         close(SocketFD);
         exit(EXIT_FAILURE);
       }
- 
- 
+
+     // funcion thread---
      bzero(buffer,256);
      bzero(buffer2,256);
      n = read(ConnectFD,buffer,255);
