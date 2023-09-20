@@ -15,7 +15,7 @@
 
   map<string,int> client_sockets;
 
-  void thread_read(int TSC,string nickname){
+  void thread_read(int TSC,string nickname){ // solo pasar TSC
     char buffer[256];
     while(true){
         bzero(buffer,256);
